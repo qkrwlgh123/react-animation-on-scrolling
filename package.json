@@ -1,0 +1,34 @@
+{
+  "name": "react-animation-on-visible",
+  "version": "1.0.0",
+  "description": "React library for applying animations based on scroll position using Intersection Observer.",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.esm.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jiho_park",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qkrwlgh123/react-animation-on-visible.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.6",
+    "@types/react-dom": "^18.3.0",
+    "rollup": "^4.21.3",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tslib": "^2.7.0"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ]
+}

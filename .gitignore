@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# Build output
+dist/
+
+
+# npm package
+package-lock.json
+
+# npm packed file
+*.tgz
