@@ -1,6 +1,6 @@
 {
   "name": "react-animation-on-scrolling",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React library for applying animations based on scroll position using Intersection Observer.",
   "main": "dist/bundle.js",
   "module": "dist/bundle.esm.js",

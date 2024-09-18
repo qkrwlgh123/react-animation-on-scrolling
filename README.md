@@ -16,7 +16,7 @@ npm i react-animation-on-scrolling
 
 ```jsx
 import React from "react";
-import useAnimationOnVisible from "react-animation-on-visible";
+import useAnimationOnVisible from "react-animation-on-scrolling";
 
 const MyComponent = () => {
   // Define the animation class name
@@ -38,7 +38,7 @@ const MyComponent = () => {
       <div
         className="box"
         ref={ref}
-        style={{ height: "200px", background: "lightblue", margin: "50px 0" }}
+        style={{ height: "200px", background: "lightblue", margin: "1000px 0" }}
       >
         <p>This element will animate when it comes into view.</p>
       </div>
@@ -84,6 +84,7 @@ The `useAnimationOnVisible` hook accepts an `options` object to customize its be
 - **v1.0.0**: Initial feature implementation
 - **v1.0.1**: Added README
 - **v1.0.2**: Added Keywords in README
+- **v1.0.3**: Update usage example in README
 
 ## License
 
