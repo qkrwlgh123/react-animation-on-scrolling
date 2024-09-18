@@ -1,6 +1,6 @@
 {
-  "name": "react-animation-on-visible",
-  "version": "1.0.0",
+  "name": "react-animation-on-scrolling",
+  "version": "1.0.2",
   "description": "React library for applying animations based on scroll position using Intersection Observer.",
   "main": "dist/bundle.js",
   "module": "dist/bundle.esm.js",
@@ -13,12 +13,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qkrwlgh123/react-animation-on-visible.git"
+    "url": "https://github.com/qkrwlgh123/react-animation-on-scrolling.git"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.3.6",
     "@types/react-dom": "^18.3.0",
+    "gzip-size": "^7.0.0",
     "rollup": "^4.21.3",
     "typescript": "^5.6.2"
   },
@@ -30,5 +31,12 @@
   "files": [
     "dist/",
     "README.md"
+  ],
+  "keywords": [
+    "react",
+    "animation",
+    "scroll",
+    "intersection-observer",
+    "react-hooks"
   ]
 }
