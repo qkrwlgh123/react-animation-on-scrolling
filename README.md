@@ -85,6 +85,7 @@ The `useAnimationOnVisible` hook accepts an `options` object to customize its be
 - **v1.0.1**: Added README
 - **v1.0.2**: Added Keywords in README
 - **v1.0.3**: Update usage example in README
+- **v1.0.4**: Updated package.json for TypeScript support
 
 ## License
 
