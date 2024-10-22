@@ -13,3 +13,6 @@ package-lock.json
 
 # npm packed file
 *.tgz
+
+# test bunle size file
+stats.html

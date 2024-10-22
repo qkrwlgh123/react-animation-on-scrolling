@@ -1,6 +1,6 @@
 {
   "name": "react-animation-on-scrolling",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "types": "dist/useAnimationOnVisible.d.ts",
   "description": "React library for applying animations based on scroll position using Intersection Observer.",
   "main": "dist/bundle.js",
@@ -22,9 +22,11 @@
     "@types/react-dom": "^18.3.0",
     "gzip-size": "^7.0.0",
     "rollup": "^4.21.3",
+    "rollup-plugin-visualizer": "^5.12.0",
     "typescript": "^5.6.2"
   },
   "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tslib": "^2.7.0"

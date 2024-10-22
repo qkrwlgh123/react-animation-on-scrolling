@@ -1,4 +1,6 @@
 import typescript from "@rollup/plugin-typescript";
+import terser from "@rollup/plugin-terser";
+import { visualizer } from "rollup-plugin-visualizer";
 
 export default {
   input: "src/useAnimationOnVisible.ts",
@@ -14,6 +16,10 @@ export default {
       sourcemap: true,
     },
   ],
-  plugins: [typescript()],
+  plugins: [
+    typescript(),
+    terser(), // 코드 압축
+    visualizer({ open: true }), // 번들 분석
+  ],
   external: ["react", "react-dom"],
 };

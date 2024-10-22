@@ -2,7 +2,7 @@
 
 React library for applying animations based on scroll position using Intersection Observer. Easily trigger animations as elements enter the viewport, with customizable options for timing and animation types.
 
-<img src="https://badgen.net/badge/minzipped size/0.99KB" alt="minzipped size">
+<img src="https://badgen.net/badge/minzipped size/1.11KB" alt="bundle size">
 
 ## Installation
 
@@ -86,6 +86,8 @@ The `useAnimationOnVisible` hook accepts an `options` object to customize its be
 - **v1.0.2**: Added Keywords in README
 - **v1.0.3**: Update usage example in README
 - **v1.0.4**: Updated package.json for TypeScript support
+- **v1.0.5**: Added code minification for reduced bundle size
+- **v1.0.6**: Update README.md for modify bundle size
 
 ## License
 
